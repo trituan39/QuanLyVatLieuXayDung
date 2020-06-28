@@ -61,7 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\Functions.cs" />
     <Compile Include="Danh Muc\Frm_ChatLieu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,11 +160,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\delete.png" />
-    <None Include="Resources\add_row.png" />
-    <None Include="Resources\+.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
