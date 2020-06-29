@@ -19,11 +19,11 @@ namespace QuanLyVatLieuXayDung
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            Class.Functions.Connect(); //Mở kết nối
+            QuanLyBanHang.Class.Functions.Connect(); //Mở kết nối
         }
         private void mnuExit_Click(object sender, EventArgs e)
         {
-            Class.Functions.Disconnect(); //Đóng kết nối
+            QuanLyBanHang.Class.Functions.Disconnect(); //Đóng kết nối
             Application.Exit(); //Thoát
         }
         private void mnuChatLieu_Click(object sender, EventArgs e)
